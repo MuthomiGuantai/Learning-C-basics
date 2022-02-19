@@ -5,10 +5,10 @@ int main (){
     char letter;
 
     printf("Input values here; ");
-    scanf("%1f %c", &number, &letter);
+    scanf("%lf %c", &number, &letter);
 
-    printf("\nWeignt = %1f", number);
-    printf("\nFirst letter of name: ");
+    printf("\nWeignt = %lf", number);
+    printf("\nFirst letter of name: %c", letter);
 
     return 0;
 }

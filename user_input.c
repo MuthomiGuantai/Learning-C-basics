@@ -3,20 +3,19 @@
 int main (){
 
     int age;
-    float weight;
+    double weight;
     char letter;
-
     printf("Enter age here: ");
 
     scanf("%d", &age);
 
     printf("Enter your weight here: ");
 
-    scanf("\n%1f", &weight);
+    scanf("%lf", &weight);
 
     printf("Enter first letter of your middle name: ");
 
-    scanf("\n%c", &letter);
+    scanf("%c", &letter);
 
     printf("\nAge = %d", age);
     printf("\nWeight = %1f", weight);
