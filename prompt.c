@@ -18,4 +18,6 @@ int main () {
     printf("Your dad's name is %s", dad_name);
     printf("Your weight is %ls", weight);
 
+    return 0;
+
 }

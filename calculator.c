@@ -9,4 +9,6 @@ int main() {
     scanf("%lf", &second_number);
     printf("Answer: %f", first_number* second_number);
 
+    return 0;
+
 }
